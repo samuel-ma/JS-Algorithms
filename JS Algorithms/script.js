@@ -1,4 +1,9 @@
 
+/*
+    WORKING WITH DO WHILE LOOPS
+*/
+
+//passing an array as a parameter in a function
 let arr = [1,3,5];
 
 function test(arr){

@@ -15,3 +15,17 @@ while (i < arr.length){
 }
 
 console.log("The sum of numbers in the array is " + sum);
+
+function test(params){
+    let sum = 0;
+    let i = 0;
+
+    while (i < params.length){
+        sum += params[i];
+        i++;
+    }
+
+    return sum;
+}
+
+console.log(test(arr));

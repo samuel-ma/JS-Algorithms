@@ -20,7 +20,7 @@ function myFun(){
                 count += 1;
             }
         }
-    return console.log(`${x} Words, ${newWords3} letters including ${count} vowels`)
+    return console.log(`There are ${x} Words, ${newWords3} letters and ${count} vowels`)
 }
 
 myFun()
